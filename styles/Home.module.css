@@ -1,11 +1,14 @@
 .container {
-  min-height: 100vh;
+  height: 100vh;
   padding: 0 0.5rem;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  overflow-x: scroll;
+  white-space: nowrap;
+  overflow-y: hidden;
 }
 
 .col {
+  display: inline-block;
   padding: 0 10px;
+  height: 100vh;
+  overflow-y: scroll;
 }
