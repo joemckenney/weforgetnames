@@ -12,3 +12,6 @@
   height: 100vh;
   overflow-y: scroll;
 }
+.col::-webkit-scrollbar {
+  display: none;
+}
